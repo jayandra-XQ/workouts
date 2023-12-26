@@ -5,7 +5,7 @@ import './index.css';
 import { disableReactDevTools } from '@fvilers/disable-react-devtools'
 import { WorkoutsContextProvider } from './context/WorkoutsContext.jsx';
 
-if (Process.env.NODE_ENV === 'production') disableReactDevTools()
+if (process.env.NODE_ENV === 'production') disableReactDevTools()
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
