@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://workouts-4bt4.onrender.com/',
+      '/api': http://localhost:4000',
     },
   },
 })
